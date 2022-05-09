@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321FD4BC28255BBF0053DC8C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FD4BB28255BBF0053DC8C /* MenuView.swift */; };
+		321FD4C2282585900053DC8C /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FD4C1282585900053DC8C /* LocationView.swift */; };
+		321FD4C42825912D0053DC8C /* DestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FD4C32825912D0053DC8C /* DestinationView.swift */; };
+		321FD4C62825A2D30053DC8C /* LocationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FD4C52825A2D30053DC8C /* LocationItem.swift */; };
+		321FD4C82825A5220053DC8C /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 321FD4C72825A5220053DC8C /* ConfirmationView.swift */; };
+		321FD4CA2825D1630053DC8C /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321FD4C92825D1630053DC8C /* NunitoSans-Bold.ttf */; };
+		321FD4CC2825D1720053DC8C /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 321FD4CB2825D1720053DC8C /* NunitoSans-Regular.ttf */; };
+		323C494128245E53003444F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C494028245E53003444F2 /* AppDelegate.swift */; };
+		323C494328245E53003444F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C494228245E53003444F2 /* SceneDelegate.swift */; };
+		323C494528245E53003444F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C494428245E53003444F2 /* ViewController.swift */; };
+		323C494828245E53003444F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323C494628245E53003444F2 /* Main.storyboard */; };
+		323C494A28245E56003444F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 323C494928245E56003444F2 /* Assets.xcassets */; };
+		323C494D28245E56003444F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 323C494B28245E56003444F2 /* LaunchScreen.storyboard */; };
+		323C495528246021003444F2 /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C495428246021003444F2 /* UIColorHex.swift */; };
+		323C4957282460FA003444F2 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C4956282460FA003444F2 /* CustomFont.swift */; };
+		323C495A2824626F003444F2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C49592824626F003444F2 /* ProfileView.swift */; };
+		323C495D28246294003444F2 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 323C495C28246294003444F2 /* SnapKit */; };
+		323C495F28246A1F003444F2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323C495E28246A1F003444F2 /* CardView.swift */; };
+		32413E5B28267CA5001DC249 /* TrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32413E5A28267CA5001DC249 /* TrackingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		321FD4BB28255BBF0053DC8C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		321FD4C1282585900053DC8C /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		321FD4C32825912D0053DC8C /* DestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationView.swift; sourceTree = "<group>"; };
+		321FD4C52825A2D30053DC8C /* LocationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationItem.swift; sourceTree = "<group>"; };
+		321FD4C72825A5220053DC8C /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		321FD4C92825D1630053DC8C /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		321FD4CB2825D1720053DC8C /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		323C493D28245E53003444F2 /* Taxi-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taxi-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323C494028245E53003444F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		323C494228245E53003444F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		323C494428245E53003444F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		323C494728245E53003444F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		323C494928245E56003444F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		323C494C28245E56003444F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		323C494E28245E56003444F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		323C495428246021003444F2 /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		323C4956282460FA003444F2 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		323C49592824626F003444F2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		323C495E28246A1F003444F2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		32413E5A28267CA5001DC249 /* TrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323C493A28245E53003444F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323C495D28246294003444F2 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323C493428245E53003444F2 = {
+			isa = PBXGroup;
+			children = (
+				323C493F28245E53003444F2 /* Taxi-App */,
+				323C493E28245E53003444F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323C493E28245E53003444F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323C493D28245E53003444F2 /* Taxi-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323C493F28245E53003444F2 /* Taxi-App */ = {
+			isa = PBXGroup;
+			children = (
+				323C49582824610A003444F2 /* fonts */,
+				323C494628245E53003444F2 /* Main.storyboard */,
+				323C494B28245E56003444F2 /* LaunchScreen.storyboard */,
+				323C494928245E56003444F2 /* Assets.xcassets */,
+				323C494E28245E56003444F2 /* Info.plist */,
+				323C494028245E53003444F2 /* AppDelegate.swift */,
+				321FD4BB28255BBF0053DC8C /* MenuView.swift */,
+				323C494228245E53003444F2 /* SceneDelegate.swift */,
+				323C494428245E53003444F2 /* ViewController.swift */,
+				323C495428246021003444F2 /* UIColorHex.swift */,
+				323C49592824626F003444F2 /* ProfileView.swift */,
+				323C495E28246A1F003444F2 /* CardView.swift */,
+				321FD4C1282585900053DC8C /* LocationView.swift */,
+				321FD4C32825912D0053DC8C /* DestinationView.swift */,
+				321FD4C52825A2D30053DC8C /* LocationItem.swift */,
+				321FD4C72825A5220053DC8C /* ConfirmationView.swift */,
+				32413E5A28267CA5001DC249 /* TrackingView.swift */,
+			);
+			path = "Taxi-App";
+			sourceTree = "<group>";
+		};
+		323C49582824610A003444F2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				321FD4C92825D1630053DC8C /* NunitoSans-Bold.ttf */,
+				321FD4CB2825D1720053DC8C /* NunitoSans-Regular.ttf */,
+				323C4956282460FA003444F2 /* CustomFont.swift */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323C493C28245E53003444F2 /* Taxi-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323C495128245E56003444F2 /* Build configuration list for PBXNativeTarget "Taxi-App" */;
+			buildPhases = (
+				323C493928245E53003444F2 /* Sources */,
+				323C493A28245E53003444F2 /* Frameworks */,
+				323C493B28245E53003444F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taxi-App";
+			packageProductDependencies = (
+				323C495C28246294003444F2 /* SnapKit */,
+			);
+			productName = "Taxi-App";
+			productReference = 323C493D28245E53003444F2 /* Taxi-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323C493528245E53003444F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					323C493C28245E53003444F2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 323C493828245E53003444F2 /* Build configuration list for PBXProject "Taxi-App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323C493428245E53003444F2;
+			packageReferences = (
+				323C495B28246294003444F2 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 323C493E28245E53003444F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323C493C28245E53003444F2 /* Taxi-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323C493B28245E53003444F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323C494D28245E56003444F2 /* LaunchScreen.storyboard in Resources */,
+				323C494A28245E56003444F2 /* Assets.xcassets in Resources */,
+				321FD4CC2825D1720053DC8C /* NunitoSans-Regular.ttf in Resources */,
+				323C494828245E53003444F2 /* Main.storyboard in Resources */,
+				321FD4CA2825D1630053DC8C /* NunitoSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323C493928245E53003444F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323C495F28246A1F003444F2 /* CardView.swift in Sources */,
+				321FD4C82825A5220053DC8C /* ConfirmationView.swift in Sources */,
+				321FD4BC28255BBF0053DC8C /* MenuView.swift in Sources */,
+				323C4957282460FA003444F2 /* CustomFont.swift in Sources */,
+				323C494528245E53003444F2 /* ViewController.swift in Sources */,
+				32413E5B28267CA5001DC249 /* TrackingView.swift in Sources */,
+				323C495528246021003444F2 /* UIColorHex.swift in Sources */,
+				323C494128245E53003444F2 /* AppDelegate.swift in Sources */,
+				323C495A2824626F003444F2 /* ProfileView.swift in Sources */,
+				321FD4C42825912D0053DC8C /* DestinationView.swift in Sources */,
+				321FD4C2282585900053DC8C /* LocationView.swift in Sources */,
+				323C494328245E53003444F2 /* SceneDelegate.swift in Sources */,
+				321FD4C62825A2D30053DC8C /* LocationItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		323C494628245E53003444F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323C494728245E53003444F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		323C494B28245E56003444F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				323C494C28245E56003444F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		323C494F28245E56003444F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		323C495028245E56003444F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323C495228245E56003444F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taxi-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "is.rza.Taxi-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		323C495328245E56003444F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taxi-App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "is.rza.Taxi-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323C493828245E53003444F2 /* Build configuration list for PBXProject "Taxi-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323C494F28245E56003444F2 /* Debug */,
+				323C495028245E56003444F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323C495128245E56003444F2 /* Build configuration list for PBXNativeTarget "Taxi-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323C495228245E56003444F2 /* Debug */,
+				323C495328245E56003444F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		323C495B28246294003444F2 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		323C495C28246294003444F2 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 323C495B28246294003444F2 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 323C493528245E53003444F2 /* Project object */;
+}
